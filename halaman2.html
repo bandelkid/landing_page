@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME | FrozenFood</title>
+    <!-- Tautkan Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Tautkan CSS Kustom Anda -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Tautan ke Font Awesome CSS (untuk ikon) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Tambahkan Pengaturan Halaman -->
+    <style>
+        body {
+          /*Tambahkan gambar background Anda, ('folder/nama.jpg')*/
+            background-image: url('image/background1.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+      .fa-star{
+        color: rgba(207, 207, 49, 0.941);
+      }
+    </style>
+  </head>
+  <body>
+
+        
+    <!-- Navigasi Menu Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="#">Frozen Delights</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="#about">Tentang Kami</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#produk">Produk</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#testimoni">Testimoni</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#kontak">Kontak</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+    
+<!-- Header Gambar Depan -->
+<header id="header" class="container py-2">
+  <div class="row">
+
+    <div class="col">
+      <!-- Ubah Nama file gambarnya disini -->
+      <img src="image/d2.png" class="card-img-top" alt="...">
+    </div>
+  </div>
+
+</header>
+    
+<!-- Carousel (Slideshow) -->
+<div class="container text-center">
+  <div id="carouselExample" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+          <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExample" data-slide-to="1"></li>
+          <li data-target="#carouselExample" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <!-- Ubah Nama file gambarnya disini -->
+              <img src="image/c21.png" class="d-center w-50" alt="Slide 1">
+          </div>
+          <div class="carousel-item">
+              <!-- Ubah Nama file gambarnya disini -->
+              <img src="image/d5.png" class="d-center w-50" alt="Slide 2">
+          </div>
+          <div class="carousel-item">
+              <!-- Ubah Nama file gambarnya disini -->
+              <img src="image/d2.png" class="d-center w-50" alt="Slide 3">
+          </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+      </a>
+      </div>
+  </div>
+  
+      <!-- Tentang Kami -->
+      <section id="about" class="container py-5">
+          <div class="row">
+            <div class="col-lg-8 text-center">
+              <!-- Ubah Keterangan Tentang Produk Anda disini -->
+              <h2>About Us</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis magni modi eligendi eaque architecto quidem, distinctio quaerat qui illo, repudiandae explicabo quo obcaecati dolorem optio corrupti error sapiente? Odit ut consequatur ullam iure corporis harum cupiditate delectus cumque itaque aperiam! Nemo at fuga expedita libero odit autem, placeat veniam eaque magnam laborum tempore unde non eius architecto obcaecati facere repellendus sunt velit dolorum consequuntur sapiente voluptatum quam distinctio. Corporis, provident non itaque, aspernatur voluptate aut ipsa illo neque tempora iste, hic ducimus! Eaque praesentium, iusto inventore sunt delectus dolor aspernatur sequi neque distinctio aliquam tempore facilis, corrupti in tempora repudiandae.</p>
+            </div>
+            <div class="col-lg-4 text-center">
+                  <!-- Ubah Nama file gambarnya disini -->
+                <img src="image/5.png" alt="" class="img-fluid w-50">
+            </div>
+        </div>
+      </section>
+
+      <!-- Tentang Produk -->
+      <section id="produk" class="container py-5">
+        <h2>Products</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" >
+                  <!-- Ubah Nama file gambarnya disini -->
+                  <img src="image/bakso beku.png" class="card-img-top" alt="Produk 2">
+                  <div class="card-body">
+                      <!-- Ubah Judul Makanan dan keterangan disini -->
+                      <h5 class="card-title">Bakso Beku</h5>
+                      <p class="card-text">Bakso frozen merupakan salah satu makanan kemasan yang cara pengawetannya dengan dibekukan</p>
+                      <a href="https://wa.me/081275847175?text=kak%20saya%20mau%20Order%20" class="btn btn-outline-danger">Order Now</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                  <!-- Ubah Nama file gambarnya disini -->
+                  <img src="image/bakso beku.png" class="card-img-top" alt="Produk 2">
+                  <div class="card-body">
+                    <!-- Ubah Judul Makanan dan keterangan disini -->
+                      <h5 class="card-title">Bakso Beku</h5>
+                      <p class="card-text">Bakso frozen merupakan salah satu makanan kemasan yang cara pengawetannya dengan dibekukan</p>
+                      <a href="https://wa.me/081275847175?text=kak%20saya%20mau%20Order%20" class="btn btn-outline-danger">Order Now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                  <!-- Ubah Nama file gambarnya disini -->
+                  <img src="image/bakso beku.png" class="card-img-top" alt="Produk 2">
+                  <div class="card-body">
+                    <!-- Ubah Judul Makanan dan keterangan disini -->
+                      <h5 class="card-title">Bakso Beku</h5>
+                      <p class="card-text">Bakso frozen merupakan salah satu makanan kemasan yang cara pengawetannya dengan dibekukan</p>
+                      <a href="https://wa.me/081275847175?text=kak%20saya%20mau%20Order%20" class="btn btn-outline-danger">Order Now</a>
+                    </div>
+                  </div>
+            </div>
+            
+        </div>
+      </section>
+
+      <!-- testimoni Pelanggan -->
+      <section id="testimoni" class="container py-5">
+        <h2>Testimoni</h2>
+        <div class="row">
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                    <!-- Ubah Nama file gambarnya disini -->
+                    <img src="image/5.png" class="card-img-top w-25" alt="Produk 1">
+                    <!-- Ubah Nama dan Testimoni disini -->
+                    <p class="card-text"><strong>John Doe</strong></p>    
+                    <p class="card-text">"Produk mereka luar biasa! Rasanya benar-benar enak dan saya suka kemudahan pengemasan."</p>
+                        <div class="rating">
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star"></span>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                    <!-- Ubah Nama file gambarnya disini -->
+                    <img src="image/5.png" class="card-img-top w-25" alt="Produk 2">
+                    <!-- Ubah Nama dan Testimoni disini -->
+                    <p class="card-text"><strong>Jane Smith</strong></p>                
+                    <p class="card-text">"Saya sangat puas dengan layanan pengiriman mereka. Cepat dan aman!"</p>
+                    
+                    <div class="rating">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                  </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                    <!-- Ubah Nama file gambarnya disini -->
+                    <img src="image/5.png" class="card-img-top w-25" alt="Produk 3">   
+                    <!-- Ubah Nama dan Testimoni disini -->             
+                    <p class="card-text"><strong>Mary Johnson</strong></p>
+                    <p class="card-text">"Produk berkualitas tinggi dan harga yang terjangkau. Saya akan merekomendasikan mereka kepada teman-teman saya."</p>
+                        
+                        <div class="rating">
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star"></span>
+                      </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- kontak Kami-->
+      <section id="kontak" class="container py-5">
+        <h2>Contact Us</h2>
+        <p>Jika Anda memiliki pertanyaan atau ingin berbicara dengan kami, jangan ragu untuk menghubungi kami.</p>
+
+        <div class="row">
+          <div class="card">
+            <div class="col">
+                <address>
+                  <!-- Ubah Nama dan Alamat disini --> 
+                    <strong>Frozen Delights</strong><br>
+                    Jalan Contoh No. 123<br>
+                    Kota Contoh, 12345<br>
+                    Telepon: (123) 456-7890<br>
+                    Email: info@frozendelights.com
+                </address>
+            </div>
+          </div>
+          <div class="card">  
+            <div class="col-md-8">
+              <!-- Ubah Alamat Google map disini --> 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.9903858617295!2d98.61830227396278!3d3.58967965028884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30312e4f46b5ab19%3A0x447dc6ab3d465c1e!2sVocational%20School%20District%209%20Medan!5e0!3m2!1sen!2sid!4v1698285032979!5m2!1sen!2sid" width="700" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      
+      </section>
+
+<!-- JANGAN DIHAPUS!! Tautkan Bootstrap JavaScript dan jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+  </body>
+</html>
