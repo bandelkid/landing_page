@@ -1,0 +1,43 @@
+/* Styles.css */
+
+/* Warna latar belakang header (gradasi) */
+header {
+    background: linear-gradient(to bottom, #ff7f00, #ff9f30);
+}
+
+/* Warna teks header */
+header h1, header p {
+    color: #fff;
+}
+
+/* Warna tombol header */
+header .btn-primary {
+    background-color: #ff9f30;
+    border-color: #ff9f30;
+    color: #fff;
+}
+
+/* Warna latar belakang footer */
+footer {
+    background-color: #ff7f00;
+    color: #fff;
+}
+
+/* Warna tautan media sosial di footer */
+footer a {
+    color: #fff;
+}
+
+
+/* Warna latar belakang */
+#testimonials, #contact {
+    background: linear-gradient(to bottom, #ffcc66, #ffad33);
+}
+
+#products,  #about, #video, #header {
+    background: linear-gradient(to bottom, #ffecb3, #ffd699);
+}
+
+#produk1, #produk2, #produk3, #produk4, #produk5, #produk6, #produk7, #produk8 {
+    background: linear-gradient(to bottom, #ffecb3, #ffd699);
+}  
